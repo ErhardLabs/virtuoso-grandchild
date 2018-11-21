@@ -1,0 +1,49 @@
+/* ## Primary Navigation
+--------------------------------------------- */
+
+.nav-primary {
+  background-color: $primary-nav--background-color;
+  display: none;
+
+  .header-logo-middle & {
+    float: left;
+    width: 100%;
+
+    //.menu-primary {
+    //  display: none;
+    //}
+  }
+
+  .header-logo-left & {
+    clear: both;
+  }
+
+  > .wrap {
+    position: relative;
+    padding: 0;
+  }
+
+  @include media-query('med'){
+
+    margin-bottom: 0;
+    display: block;
+
+    .header-logo-middle & {
+      text-align: right;
+      width: 40%;
+      
+    }
+    .header-logo-left & {
+      clear: none;
+
+      .menu-primary {
+        float: right;
+        width: auto;
+        clear: none;
+        text-align: center;
+      }
+      
+    }
+
+  }
+}

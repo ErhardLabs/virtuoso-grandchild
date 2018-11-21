@@ -1,0 +1,16 @@
+//
+// ## Secondary
+//===========================
+
+.nav-secondary {
+  background-color: $secondary-nav--background-color;
+
+  .header-logo-middle & {
+    @include media-query('med'){
+      float: right;
+      width: 40%;
+      margin-bottom: 0;
+    }
+  }
+
+}
