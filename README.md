@@ -1,6 +1,7 @@
-# Virtuoso Grandchild - Child theme customization plugin
+# Virtuoso Grandchild - Child theme customization plugin 
 
-Useful if you want to make project specific style changes/overrides to your virtuoso theme but not change any core virtuoso files 
+## Description
+The purpose of this plugin is to enable users to safely update child themes without losing customizations made to the child theme. Since WordPress doesn't support grandchild themes (for good reason), this is one way to allow users to add custom CSS that won't be overwritten if a child theme is updated.
 
 ## Dependencies
 
