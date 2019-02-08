@@ -20,6 +20,12 @@ $link--hover-color: $gray--medium;
 $base__color: $gray;
 $body--background-color: $gray--lighter;
 
+//
+// Floating Contact button
+//============================
+$floatingContact--background-color: $white;
+$floatingContact--color: $black;
+
 // Form Elements
 $input--background-color: $white;
 $input--border-color: $gray--light;
@@ -37,7 +43,8 @@ $button--disable-color: $gray--medium;
 //======================
 $site-header--background-color: $white;
 $site-title--link-color: $black;
-$video-overlay--background-color: rgba(0,0,0,.5);
+$hero-overlay--background-color: rgba(0,0,0,.5);
+$hero-overlay--background-transition-color: rgb(255,255,255);
 $video-background--blur: none;
 
 //
@@ -72,8 +79,12 @@ $archive-pagination--hover-color: $white;
 // Footer
 //============================
 $siteFooter--background-color: $white;
+$siteFooter--color: $gray--light;
+$siteFooter--link-color: $gray;
 $site-footer--border-color: $gray--lighter;
 $footer-widgets--background-color: $white;
+$footer-widgets--link-color: $link--color;
+$siteFooter__login--border-color: $white;
 
 //
 // Entry Content
@@ -114,7 +125,7 @@ $enews__submit-button__BackgroundHoverColor: $white;
 $enews__submit-button--hover-color: $red;
 
 // General Components
-$breadcrumbs--background-color: $white;
+$breadcrumbs--background-color: transparent;
 $author-box--background-color: $white;
 $after-entry--background-color: $white;
 $archive-description--background-color: $gray--lightest;

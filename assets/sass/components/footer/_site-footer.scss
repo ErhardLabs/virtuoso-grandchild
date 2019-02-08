@@ -2,14 +2,14 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .site-footer {
-  background-color: $siteFooter--background-color;
+  background: $siteFooter--background-color;
   @include rem( font-size, $site-footer--font-size );
   line-height: 1;
   text-align: center;
 
   > .wrap {
-    color: #adb5bd;
-    border-top: 1px solid #f0f1f2;
+    color: $siteFooter--color;
+    border-top: 1px solid $site-footer--border-color;
     padding: 5vw;
 
     @include media-query('med'){
@@ -20,7 +20,22 @@
 
   }
 
+  .footer-login {
+    margin-left: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid $siteFooter__login--border-color;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+
+  a {
+    color: $siteFooter--link-color;
+  }
+
   p {
     margin-bottom: 0;
+    line-height: 1.5;
   }
 }

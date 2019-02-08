@@ -1,0 +1,40 @@
+#slide_out_sidebar {
+
+  .nf-form-title {
+    margin: 0 auto 2em auto;
+    text-align: center;
+  }
+
+  .list-wrap {
+
+    .nf-field-label {
+      margin: 0 auto;
+    }
+
+  }
+
+  .nf-error .ninja-forms-field {
+    border: none;
+    border-bottom: 1px solid #e80000;
+  }
+
+  .nf-form-fields-required {
+    display: none;
+  }
+
+  input, textarea {
+    padding-left: 0;
+  }
+
+  .submit-wrap {
+    text-align: center;
+  }
+
+  input[type=button]{
+    padding-left: 20px;
+    @include rounded-button($white, $black, true);
+
+
+  }
+
+}

@@ -1,0 +1,26 @@
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: darken($white, 40%);
+  font-size: 1.5em;
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    color: darken($white, 60%);
+  }
+
+}
+
+.prevArrow {
+  left: 10px;
+}
+
+.nextArrow {
+  right: 10px;
+  justify-content: flex-end;
+}

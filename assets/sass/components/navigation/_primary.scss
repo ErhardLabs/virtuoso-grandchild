@@ -18,12 +18,13 @@
     clear: both;
   }
 
+
   > .wrap {
     position: relative;
     padding: 0;
   }
 
-  @include media-query('med'){
+  @include media-query('med') {
 
     margin-bottom: 0;
     display: block;
@@ -43,6 +44,11 @@
         text-align: center;
       }
       
+    }
+
+    .header-navigation-middle & {
+      float: none;
+      display: inline-block;
     }
 
   }
