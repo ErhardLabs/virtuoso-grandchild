@@ -1,0 +1,34 @@
+@mixin offset-image-block(){
+  .virtuoso-block.offset_image {
+
+    h2, p, div {
+      color: $white;
+    }
+
+    .section_image {
+      transition: transform 500ms cubic-bezier(.165,.84,.44,1);;
+      &:hover {
+        transform: scale(.98);
+        transition: transform 500ms cubic-bezier(.165,.84,.44,1);;
+      }
+    }
+
+    .section_info {
+      transition: transform 500ms;
+      &:hover {
+        transform: scale(1.02);
+        transition: transform 500ms;
+      }
+    }
+
+    .section_info_wrap {
+      margin: 10px;
+      background: $note-bloom-gradient-sorta-transparent;
+
+      @include media-query('med') {
+        margin: 0;
+      }
+    }
+
+  }
+}
