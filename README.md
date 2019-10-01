@@ -26,3 +26,9 @@ Changes to the styles in the grandchild plugin will override theme styles. No ne
 ## Contributions
 
 Feedback, bug reports, and pull requests are welcome.
+
+## Copyright and License
+
+Virtuoso Grandchild is licensed under the [GNU GPL](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
+
+2019 © Erhard Labs
